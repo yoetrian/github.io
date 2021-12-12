@@ -4,6 +4,15 @@
 
 @import "{{ site.theme }}";
 
+body {
+        background-color: #121212;
+        color: white;
+}
+
+h1, h2, h3 {
+        color:white
+}
+
 .post img {
         display: block;
         border:1px solid #021a40;
