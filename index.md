@@ -3,6 +3,6 @@ layout: default
 --- 
 
 {% for post in site.posts %}
-<p><h1>{{ post.title }}</h1></p>
+<p><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></p>
 <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
 {% endfor %}
